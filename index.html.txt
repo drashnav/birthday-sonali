@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Happy Birthday Sonali!</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ffdee9, #b5fffc);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 50px 20px;
+        }
+        h1 {
+            color: #ff69b4;
+            font-size: 3em;
+            animation: bounce 2s infinite;
+        }
+        .quote p {
+            font-size: 1.5em;
+            color: #555;
+            background: #fff8fb;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 15px;
+            max-width: 600px;
+            box-shadow: 0 0 10px #ffc1e3;
+        }
+        .gif img {
+            width: 250px;
+            height: auto;
+            margin-top: 30px;
+            border-radius: 20px;
+        }
+        .footer {
+            margin-top: 40px;
+            color: #777;
+        }
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+    </audio>
+    <div class="container">
+        <h1>🎂 Happy Birthday, Sonali! 🎉</h1>
+        <div class="quote">
+            <p>“May your birthday be as bright, sweet, and sparkly as you are! You’re a whole cupcake in a world full of muffins. 🍰💖”</p>
+        </div>
+        <div class="gif">
+            <img src="https://media1.tenor.com/m/pOHv368045cAAAAd/cute-anime-girl.gif" alt="Cute Anime Girl" />
+        </div>
+        <p class="footer">Made with 💕 just for you.</p>
+    </div>
+</body>
+</html>
+
